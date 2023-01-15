@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="icon" type="image/x-icon" href="media/logo.jpg" /> -->
+    <script src="socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/phone.css" media="only screen and (max-width:1080 min-width:2408)">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Chat Now</title>
+    
+  </head>
+  <body>
+    <div class="logo">
+      <img src="media/logo.png" />
+    </div>
+    <div class="container">
+      <!-- <div class="message right">Umang: Hello</div>
+      <div class="message left">Rohan: How Are</div> -->
+    </div>
+    <div class="send">
+      <form action="#" id="send-container">
+        <input type="text" class="messageInp" id="messageInp" autofocus />
+        <button class="btn" type="submit">
+          <span class="material-symbols-outlined"> send </span>
+        </button>
+      </form>
+    </div>
+    <script src="js/client.js"></script>
+  </body>
+</html>

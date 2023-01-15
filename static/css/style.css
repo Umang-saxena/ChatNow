@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+/* --------Styling The ScrollBar--------- */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* ----------------------------------------------------- */
+.logo img{
+    width: 10rem;
+    display: block;
+    filter: brightness(200%);
+    margin: auto;
+}
+
+body{
+    background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+    /* min-width: 100%; */
+    /* min-height: 100%; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+.container {
+    border: 2px solid black;
+    height: 70vh;
+    box-sizing: content-box;
+    margin: 0 5%;
+    min-width: 80vw;
+    background-color: #f6f4f4a3;
+    border-radius: 12px;
+    overflow-y: auto;
+}
+
+.message {
+    border: 2px solid red;
+    max-width: 34rem;
+    padding: 0.2rem;
+    min-height: 38px;
+    overflow: hidden;
+    margin: 1rem 0;
+    border-radius: 0.6rem;
+    /* font-size: 19px; */
+    font-style: italic;
+    font-weight: 300;
+}
+.container .right {
+    float: right;
+    clear: both;
+    margin-right: 0.3rem;
+    padding-left: 0.2rem;
+    overflow-y: auto;
+    font-family: 'PT Serif', serif;
+}
+.container .left {
+    float: left;
+    clear: both;
+    margin-left: 0.3rem;
+    padding-right: 0.2rem;
+    font-family: 'PT Serif', serif;
+}
+
+/* Styling Send Option */
+
+.send{
+    text-align: center;
+}
+.messageInp {
+    min-width: 84%;
+    height: 2rem;
+    margin: 1% 0px;
+    border-radius: 5px;
+    overflow: hidden;
+    border-style: none;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+}
+.messageInp:focus{
+    outline: none;
+}
+.btn {
+    border-radius: 15px;
+    width: 52px;
+    height: 39px;
+    margin-top: 6px;
+}
+.material-symbols-outlined{
+    font-size: 21px;
+    cursor: pointer;
+}
